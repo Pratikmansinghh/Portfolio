@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 
     $('.navbar .menu li a').click(function(){
-        // applying again smooth scroll on menu items click
+        // applying smooth scroll on menu items click
         $('html').css("scrollBehavior", "smooth");
     });
 
@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Developer", "Trader",  "Blogger", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Developer", "Trader",  "Blogger", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
